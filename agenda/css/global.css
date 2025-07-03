@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(182, 125, 156);
+    width: auto;
+}
+
+/* AJUSTE E ORGAMIZAÇÃO DOS CONTEÚDOS */
+
+.topo{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: rgb(221, 181, 211);
+    border-radius: 30px;
+    height:75px;
+    
+}
+
+.topo h1{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.logout{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.logout input[type="submit"]{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(238, 238, 238);
+    font-family: 'Comfortaa', sans-serif;
+    color:rgb(182, 125, 156);
+}
+
+
+.menus{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+    /* justify-content: center; */ 
+    margin-top: 70px; 
+    
+}
+
+
+
+
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(221, 181, 211);
+    margin: 10px;
+    border-radius: 20px;
+    border: #f3aec3 solid 4px;
+    flex-flow: column;
+
+}
+.menu1 a, .menu2 a, .menu3 a, .menu4 a, .menu5 a, .menu6 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.menus a{
+    width: 300px;
+    height: 300px;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover, .menu5:hover, .menu6:hover{
+    transform: scale(1.109);
+    /* backgroud-color: rgb(238, 238, 238); */
+}
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6{
+    transition: transform 0.5s;
+}
+

@@ -1,0 +1,29 @@
+body{
+    margin-top:0px;
+    padding:0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.tabela {
+    background-color: rgb(186, 191, 194);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin:0;
+}
+
+/* PROPRIEDADES BASICAS PARA A TABELA */
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td, th {
+    
+    border: 1px solid #d47f98;
+    background-color: #f3aec3;
+    text-align: center;
+    color:aliceblue;
+    
+}
